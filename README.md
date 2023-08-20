@@ -4,3 +4,4 @@
 
 <p>Dice Game</p>
 <p>DOM Challenge</p>
+<p>Drum Kit</p>
