@@ -7,3 +7,4 @@
 <p>Drum Kit</p>
 <p>jQuery</p>
 <p>Password Generator</p>
+<p>Weather App</p>
