@@ -10,3 +10,4 @@
 <p>Weather App</p>
 <p>To-Do List</p>
 <p>Crypto Web</p>
+<p>QR Code</p>
