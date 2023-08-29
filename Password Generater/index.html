@@ -17,31 +17,41 @@
     </div>
 
     <script>
+        // Get password input element
         const passwordBox = document.getElementById("password");
-        const lenght = 12;
+        const lenght = 12; // defind length of generated password
 
+        // Define different character sets
         const upperCase = "ABCDERGHIJKLMNOPQRSTUVWXYZ"
         const lowerCase = "abcdefghijklmnopqrstuvwxyz"
         const number = "0123456789"
         const symbol = "~!@#$%^&*()"
 
+        // Combine all character sets into a single string
         const allChars = upperCase + lowerCase + number + symbol;
 
+        // Function to create a random password
         function createPassword(){
             let password = "";
+            // Ensure at least one character from each set
             password += upperCase[Math.floor(Math.random() * upperCase.length)];
             password += lowerCase[Math.floor(Math.random() * lowerCase.length)];
             password += number[Math.floor(Math.random() * number.length)];
             password += symbol[Math.floor(Math.random() * symbol.length)];
 
+            // Generate the reamin characters
             while(lenght > password.length){
                 password += allChars[Math.floor(Math.random() * allChars.length)];
             }
+            // Set the generated password in the input box
             passwordBox.value = password;
         }
 
+        // Function to copy the generated password to the clipboard
         function copyPassword(){
+            // Select passwrod input text
             passwordBox.select();
+            // Execute the copy command
             document.execCommand("copy");
         }
     </script>
