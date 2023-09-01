@@ -12,4 +12,4 @@
 <p>Crypto Web - <i>Crypto API via https://www.coingecko.com/en/api</i></p>
 <p>QR Code - <i>QR API via https://goqr.me/api/</i></p>
 <p>Image Search - <i>Register your own API access key via https://unsplash.com/developers</i></p>
-<p>Music Player - <i>fontawesome for button via https://fontawesome.com/</i></p>
+<p>Music Player - <i>fixing the bugs on the change function, fontawesome for button via https://fontawesome.com/</i></p>
