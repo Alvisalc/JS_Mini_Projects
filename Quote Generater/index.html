@@ -10,8 +10,39 @@
 
     <div class="quote-box">
         <h2>Quote of the day</h2>
-        <blockquote>Loading...</blockquote>
+        <blockquote id="quote">Loading...</blockquote>
+        <span id="author">Loading...</span>
+        <div>
+            <!-- Add get new quote function button-->
+            <button onclick="getquote(api_url)">New Quote</button>
+            <!-- Add tweet function button -->
+            <button onclick="tweet()"><img src="x-twitter-logo.png">Tweet</button>
+        </div>
     </div>
 
+    <script>
+        // Get reference
+        const quote = document.getElementById("quote");
+        const author = document.getElementById("author");
+        // API from https://github.com/lukePeavey/quotable
+        const api_url = "https://api.quotable.io/random";
+
+        // Add function to get quote
+        async function getquote(url){
+            const response = await fetch(url);
+            var data = await response.json();
+            // get quote and author data content
+            quote.innerHTML = data.content;
+            author.innerHTML = data.author;
+        }
+        // Run the funciton
+        getquote(api_url);
+        // tweet api via https://developer.twitter.com/en/docs/twitter-for-websites/tweet-button/overview
+        function tweet(){
+            window.open("https://twitter.com/intent/tweet?text=" + quote.innerHTML + 
+            " ---- by " + author.innerHTML, "Tweet Window", "width=600, height=300");
+        }
+
+    </script>
 </body>
 </html>
