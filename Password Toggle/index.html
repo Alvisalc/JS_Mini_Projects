@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Toggle - hidden and shown up</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- HTML section -->
+    <div class="input-box">
+        <input type="password" placeholder="password" id="password">
+        <img src="eye-icons/eye-close.png" id="eyeicon">
+    </div>
+
+    <!-- JavaScript section -->
+    <script>
+        // Get references
+        let eyeicon = document.getElementById("eyeicon");
+        let password = document.getElementById("password");
+        
+        // Function of eyeicon onclick button
+        eyeicon.onclick = function(){
+            // Check the type of password if they are equal
+            if(password.type == "password"){
+                // Show the password & change the eye icon to open
+                password.type = "text";
+                eyeicon.src = "eye-icons/eye-open.png";
+            }else{
+                // Hidden the password & change the eye icon to close
+                password.type = "password";
+                eyeicon.src = "eye-icons/eye-close.png";
+            }
+        }
+    </script>
+</body>
+</html>

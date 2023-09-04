@@ -11,6 +11,7 @@
 <p>Music Player - <i>fixing the bugs on the change function, fontawesome for button via https://fontawesome.com/</i></p>
 <p>Password Generator - <i>comments added, inline JS.</i></p>
 <p>Password Strength - <i>Show the password strength.</i></p>
+<p>Password Toggle - <i>VERY Useful for register & sign up page</i></p>
 <p>QR Code - <i>QR API via https://goqr.me/api/</i></p>
 <p>Quote Generater - <i>Comment section contains Quote, Google font, and Tweet API.</i></p>
 <p>To-Do List - <i>comments added.</i></p>
