@@ -7,6 +7,7 @@
 <p>DOM Challenge - <i>in process...</i></p>
 <p>Drum Kit - <i>comments added.</i></p>
 <p>Image Search - <i>Register your own API access key via https://unsplash.com/developers</i></p>
+<p>Image Comparison Slider - <i>Credit to https://codingartistweb.com/2021/06/image-comparison-slider-html-css-javascript/</i><p>
 <p>jQuery - <i>comments added.</i></p>
 <p>Music Player - <i>fixing the bugs on the change function, fontawesome for button via https://fontawesome.com/</i></p>
 <p>Password Generator - <i>comments added, inline JS.</i></p>
