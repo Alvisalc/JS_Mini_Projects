@@ -2,6 +2,7 @@
 
 <h3>This repository stores many interesting mini-projects.</h3>
 
+<p>Coming Soon Page - Count Down script with Animation.</p>
 <p>Crypto Web - <i>Crypto API via https://www.coingecko.com/en/api</i></p>
 <p>Dice Game - <i>comments added.</i></p>
 <p>DOM Challenge - <i>solution line added.</i></p>
