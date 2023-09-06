@@ -4,7 +4,7 @@
 
 <p>Crypto Web - <i>Crypto API via https://www.coingecko.com/en/api</i></p>
 <p>Dice Game - <i>comments added.</i></p>
-<p>DOM Challenge - <i>in process...</i></p>
+<p>DOM Challenge - <i>solution line added.</i></p>
 <p>Drum Kit - <i>comments added.</i></p>
 <p>Image Search - <i>Register your own API access key via https://unsplash.com/developers</i></p>
 <p>Image Comparison Slider - <i>Credit to https://codingartistweb.com/2021/06/image-comparison-slider-html-css-javascript/</i><p>
