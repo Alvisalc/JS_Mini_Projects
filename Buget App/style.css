@@ -48,7 +48,7 @@
     margin-bottom: 0.6em;
   }
   .container input:focus {
-    border-color: #black;
+    border-color: black;
   }
   .total-amount-container,
   .user-amount-container {
@@ -133,7 +133,7 @@
     border: none;
     color: #587ef4;
   }
-  
+
   @media screen and (max-width: 600px) {
     .wrapper {
       font-size: 14px;
