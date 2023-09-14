@@ -5,6 +5,7 @@
 <p>Budget App - <i>in progress...</i></p>
 <p>Coming Soon Page - <i>Count Down script with Animation.</i></p>
 <p>Crypto Web - <i>Crypto API via https://www.coingecko.com/en/api</i></p>
+<P>Dark-Light-Mode - <i>Dark light mode toggle button switch.</i></p>
 <p>Dice Game - <i>comments added.</i></p>
 <p>DOM Challenge - <i>solution line added.</i></p>
 <p>Drum Kit - <i>comments added.</i></p>
