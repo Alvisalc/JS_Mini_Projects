@@ -12,6 +12,7 @@
 <p>Form Validation - <i>Useful for validate a submit form submission</i></p>
 <p>GIF Searcher - <i>Gif API key via https://developers.giphy.com/</i></p>
 <p>Image Crop n Download - <i>Crop a image, preview, and download it after.</i></p>
+<p>Image Product Zoom - <i>basic image zoom function for product.</i></p>
 <p>Image Searcher - <i>Register your own API access key via https://unsplash.com/developers</i></p>
 <p>Image Slider - <i>Use for product showcase</i></p>
 <p>Image Comparison Slider - <i>Credit to https://codingartistweb.com/2021/06/image-comparison-slider-html-css-javascript/</i><p>
