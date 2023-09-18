@@ -5,6 +5,7 @@
 <p>Battery Status - <i>Detect the battery status of devices.</i></p>
 <p>Budget App - <i>in progress...</i></p>
 <p>Coming Soon Page - <i>Count Down script with Animation.</i></p>
+<p>Credit Card Form - <i>Can be use for ecommerce payment check-out.</i></p>
 <p>Crypto Web - <i>Crypto API via https://www.coingecko.com/en/api</i></p>
 <P>Dark-Light-Mode - <i>Dark light mode toggle button switch.</i></p>
 <p>Dice Game - <i>comments added.</i></p>
