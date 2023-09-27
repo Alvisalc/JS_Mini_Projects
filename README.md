@@ -26,5 +26,6 @@
 <p>Pomodoro Timer - <i>Famous timer for studying and learning.</i></p>
 <p>QR Code - <i>QR API via https://goqr.me/api/</i></p>
 <p>Quote Generater - <i>Comment section contains Quote, Google font, and Tweet API.</i></p>
+<p>Rich Text Editor - <i>For text box and forum post area.</i></p>
 <p>To-Do List - <i>comments added.</i></p>
 <p>Weather App - <i>Inline JS, register your own API access key via https://openweathermap.org/api.</i></p>
