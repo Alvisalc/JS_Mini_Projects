@@ -7,14 +7,18 @@ for (var i = 0; i < numberOfDrumButtons; i++) {
   // Add a click event listener to the drum button
   document.querySelectorAll(".drum")[i].addEventListener("click", function() {
 
-    // Get the innerHTML (the content) of the clicked button
-    var buttonInnerHTML = this.innerHTML;
+    // // Get the innerHTML (the content) of the clicked button
+    // var buttonInnerHTML = this.innerHTML;
 
-    // Call the makeSound function with the button's innerHTML as an argument
-    makeSound(buttonInnerHTML);
+    // // Call the makeSound function with the button's innerHTML as an argument
+    // makeSound(buttonInnerHTML);
 
-    // Call the buttonAnimation function with the button's innerHTML as an argument
-    buttonAnimation(buttonInnerHTML);
+    // // Call the buttonAnimation function with the button's innerHTML as an argument
+    // buttonAnimation(buttonInnerHTML);
+
+    // the following this can handle the same with the above.
+    // this - is the identity of the button that triggers the event listener.
+    console.log(this);
 
   });
 
